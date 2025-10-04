@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   web:
-    image: actualbudget/actual-server:latest
+    image: actualbudget/actual-server:25.10.0
     user: 1000:1000
     restart: on-failure
     environment:
@@ -24,4 +24,5 @@ services:
       # !! If you are not using any of these options, remove the 'environment:' tag entirely.
     volumes:
       - ${APP_DATA_DIR}/data:/data
+
 
