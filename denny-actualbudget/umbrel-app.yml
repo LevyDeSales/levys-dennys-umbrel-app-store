@@ -4,7 +4,7 @@ name: Actual Budget
 tagline: A super fast privacy-focused app for managing your finances
 icon: https://i.imgur.com/19fnndW.png
 category: finance
-version: "latest"
+version: "25.10.0"
 port: 5006
 description: >-
   Actual Budget is a privacy-first personal finance tool designed for users to self-host their data and manage their budgets with complete control. It offers real-time budgeting, detailed tracking of expenses, and advanced reporting, empowering users to make informed financial decisions. The app supports encrypted syncing across multiple devices and features mobile apps for both iOS and Android, making financial management accessible on the go. With its clean and intuitive interface, Actual Budget simplifies complex finances while ensuring data remains secure and private.
@@ -70,4 +70,5 @@ dependencies:
 path: ""
 defaultUsername: "none"
 defaultPassword: "password"
+
 
